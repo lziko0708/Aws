@@ -318,7 +318,7 @@ exports.handler = async (event) => {
 
             const id = uuidv4();
             const params = {
-                TableName: 'cmtr-67a7ca39-Reservations-test',
+                TableName: 'cmtr-c4a7da70-Reservations-test',
                 Item: {
                     "id": id,
                     "tableNumber": body.tableNumber,
